@@ -1,0 +1,12 @@
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Domain\bin\Debug\net5.0\Bootcamp.Domain.deps.json
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Domain\bin\Debug\net5.0\Bootcamp.Domain.dll
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Domain\bin\Debug\net5.0\ref\Bootcamp.Domain.dll
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Domain\bin\Debug\net5.0\Bootcamp.Domain.pdb
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Domain\obj\Debug\net5.0\Bootcamp.Domain.csproj.AssemblyReference.cache
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Domain\obj\Debug\net5.0\Bootcamp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Domain\obj\Debug\net5.0\Bootcamp.Domain.AssemblyInfoInputs.cache
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Domain\obj\Debug\net5.0\Bootcamp.Domain.AssemblyInfo.cs
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Domain\obj\Debug\net5.0\Bootcamp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Domain\obj\Debug\net5.0\Bootcamp.Domain.dll
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Domain\obj\Debug\net5.0\ref\Bootcamp.Domain.dll
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Domain\obj\Debug\net5.0\Bootcamp.Domain.pdb

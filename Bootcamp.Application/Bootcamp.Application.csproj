@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="3.2.0" />
+    <PackageReference Include="MimeKit" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bootcamp.Data\Bootcamp.Data.csproj" />
+    <ProjectReference Include="..\Bootcamp.Shared\Bootcamp.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

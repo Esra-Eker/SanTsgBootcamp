@@ -69,3 +69,40 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.girisalani{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ffd800;
+    max-width:300px;
+}
+#kullaniciListesi {
+    width: 100%;
+    font: bold 1.25em "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    border: 2px solid #505050;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    text-align:left;
+    padding: 6px 6px 6px 12px;
+    background: #C1DAD7;
+    
+}
+#kullaniciListesi th {
+    background-color: #41AA7F;
+    padding: 6px 6px 6px 12px;
+}
+#kullaniciListesi td{
+    padding: 6px 6px 6px 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+#kullaniciListesi tr{
+    color: #112233;
+    background: #fff;
+}
+#kullaniciListesi tr:hover{
+    background: #202020;
+    color: #fff;
+}
+

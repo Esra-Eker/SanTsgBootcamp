@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Bootcamp.Domain/1.0.0": {
+        "runtime": {
+          "Bootcamp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bootcamp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

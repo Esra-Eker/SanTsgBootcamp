@@ -1,6 +1,6 @@
 using System;
 
-namespace Bootcamp.Models
+namespace Bootcamp.Web.Models
 {
     public class ErrorViewModel
     {

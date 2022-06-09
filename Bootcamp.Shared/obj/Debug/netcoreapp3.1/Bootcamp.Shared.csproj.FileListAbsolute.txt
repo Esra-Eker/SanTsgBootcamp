@@ -1,0 +1,10 @@
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Shared\bin\Debug\netcoreapp3.1\Bootcamp.Shared.deps.json
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Shared\bin\Debug\netcoreapp3.1\Bootcamp.Shared.dll
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Shared\bin\Debug\netcoreapp3.1\Bootcamp.Shared.pdb
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Shared\obj\Debug\netcoreapp3.1\Bootcamp.Shared.csproj.AssemblyReference.cache
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Shared\obj\Debug\netcoreapp3.1\Bootcamp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Shared\obj\Debug\netcoreapp3.1\Bootcamp.Shared.AssemblyInfoInputs.cache
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Shared\obj\Debug\netcoreapp3.1\Bootcamp.Shared.AssemblyInfo.cs
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Shared\obj\Debug\netcoreapp3.1\Bootcamp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Shared\obj\Debug\netcoreapp3.1\Bootcamp.Shared.dll
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Shared\obj\Debug\netcoreapp3.1\Bootcamp.Shared.pdb

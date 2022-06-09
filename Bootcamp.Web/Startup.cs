@@ -1,6 +1,13 @@
+using Bootcamp.Application.Interfaces;
+using Bootcamp.Application.Services;
+using Bootcamp.Data;
+using Bootcamp.Data.Repositories;
+using Bootcamp.Data.Repositories.Interfaces;
+using Bootcamp.Shared.SettingsModels;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -9,7 +16,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Bootcamp
+namespace Bootcamp.Web
 {
     public class Startup
     {
@@ -24,6 +31,15 @@ namespace Bootcamp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<BootcampDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+
+            services.Configure<EmailSettings>(Configuration.GetSection("MailSettings"));
+            services.AddScoped<IEmailService, EmailService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

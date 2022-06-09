@@ -1,0 +1,20 @@
+﻿@model Bootcamp.Domain.Users.User
+
+<form method="post" asp-action="Edit">
+    <h1>Kullanıcı Düzenle</h1>
+
+    <div class="girisalani">
+        <label asp-for="UserName">Kullanıcı Adı</label>
+        <input asp-for="UserName" />
+    </div>
+    <div class="girisalani">
+        <label asp-for="Password">Şifre: </label>
+        <input asp-for="Password" />
+    </div>
+    <div class="girisalani">
+        <label asp-for="EmailAddress">Mail Adresi: </label>
+        <input asp-for="EmailAddress" />
+    </div>
+    <button type="submit" class="kaydetmeButonu">Kaydet</button>
+    <a asp-controller="User" asp-action="Index">Listeye geri dön</a>
+</form>
