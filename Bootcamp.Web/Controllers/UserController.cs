@@ -28,7 +28,6 @@ namespace Bootcamp.Web.Controllers
         }
         public IActionResult Index()
         {
-            _logger.LogInformation("Index heho");
             var kullanicilar = _context.Users.ToList();         
             return View(kullanicilar);
         }
@@ -52,9 +51,12 @@ namespace Bootcamp.Web.Controllers
                 _context.Users.Add(user);
                 _context.SaveChanges();
                 await _emailService.SendEmailAsync(mail);
+                _logger.LogInformation("Yeni kullanıcı kaydı eklendi");
                 return RedirectToAction("Index");
             }
+            
             return View(user);
+            
         }
 
         public IActionResult Edit(int? id)
@@ -74,7 +76,8 @@ namespace Bootcamp.Web.Controllers
         {
             _context.Users.Update(user);
             _context.SaveChanges();
-            return RedirectToAction("Index");
+            _logger.LogInformation("Kullanıcı düzenlendi");
+            return RedirectToAction("Index");       
         }
 
         public IActionResult Delete(int? id)
@@ -94,7 +97,7 @@ namespace Bootcamp.Web.Controllers
                 return NotFound();
             _context.Users.Remove(kullanici);
             _context.SaveChanges();
-
+            _logger.LogInformation("Kullanıcı silindi");
             return RedirectToAction("Index");
         }
     }

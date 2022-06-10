@@ -22,7 +22,7 @@
                 <tr>
                     <td>@user.UserName</td>
                     <td>@user.EmailAddress</td>
-                    <td>@user.CreateDate</td>
+                    <td>@(((DateTime)user.CreateDate).ToString("dd-MMMM-yyyy"))</td>
                     <td>
                         <a asp-controller="User" asp-action="Edit" asp-route-id="@user.Id">Düzenle</a>
                     </td>
