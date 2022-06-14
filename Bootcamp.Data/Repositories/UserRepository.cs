@@ -12,8 +12,8 @@ namespace Bootcamp.Data.Repositories
     {
         public UserRepository(BootcampDbContext context) : base(context)
         {
-
         }
+       
         
     }
 }

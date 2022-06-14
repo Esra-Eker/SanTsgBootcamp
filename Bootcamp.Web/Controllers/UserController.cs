@@ -100,5 +100,6 @@ namespace Bootcamp.Web.Controllers
             _logger.LogInformation("Kullanıcı silindi");
             return RedirectToAction("Index");
         }
+     
     }
 }

@@ -397,3 +397,4 @@ C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Web\bin\Debug\net5.0\Bootca
 C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Web\bin\Debug\net5.0\Bootcamp.Shared.dll
 C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Web\bin\Debug\net5.0\Bootcamp.Application.pdb
 C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Web\bin\Debug\net5.0\Bootcamp.Shared.pdb
+C:\Users\Esra\Desktop\San Bootcamp\Bootcamp\Bootcamp.Web\obj\Debug\net5.0\Razor\Views\Hotel\HotelList.cshtml.g.cs

@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Bootcamp.Web.Models.Response.HotelProduct.GetArrivalAutocompleteResponse.Item>
+
+<p>
+    Aranacak Şehri Girin: @Html.TextBox("p")
+    <input type="submit" value="Ara" />
+
+</p>
+
+<h1>Hoteller</h1>
+
+<table id="hotelList">
+    <thead>
+        <tr>
+            <th>Hotel Adı</th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.city.name</td>
+                <td>@item.state.name</td>
+                <td>
+                    <a class="btn btn-outline-primary"></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
